@@ -13,4 +13,5 @@ while (counter <= 5);{
     userNumber = Number(userNumber);
     total = total + userNumber;
     counter = counter + 1;
+    document.write("<br> The sum is: " + total);
 }
